@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg-gradient-custom {
+    --color-start: rgba(254, 255, 134, 0.3); /* Hijau dengan tingkat transparansi 0.5 */
+    --color-middle: rgba(185, 243, 228, 0.3); /* Biru dengan tingkat transparansi 0.5 */
+    --color-end: rgba(255, 255, 0, 0.3); /* Kuning dengan tingkat transparansi 0.5 */
+    background: linear-gradient(to right, var(--color-start), var(--color-middle), var(--color-end));
+  }
+
+  .bg-blur {
+    backdrop-filter: blur(8px);
+    background-color: rgba(249, 245, 246, 0.1);
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
