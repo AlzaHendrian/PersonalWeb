@@ -25,7 +25,7 @@ const Contact = ({id}) => {
                 
             </div>
             <div className="flex justify-center">
-                <a href="https://wa.me/6281298225252">
+                <a href="https://wa.me/6285862723564">
                     <BsWhatsapp className='text-5xl lg:text-9xl text-green-500'/>
                 </a>
                 

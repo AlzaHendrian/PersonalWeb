@@ -11,7 +11,7 @@ const Home = ({id}) => {
                 hello, my name is Alza and I am a Full Stack <a className='bg-[#434242] rounded-lg py-1 px-4 font-serif text-lg lg:text-3xl text-white'>Developer</a>
                 <a className="text-cyan-400 lg:text-3xl ms-2">I'm very excited and ready to work.</a>  
                 </div>
-                <div className='mt-2 font-Poppins flex justify-between w-[25%] items-center'>
+                <div className='mt-6 font-Poppins flex justify-between w-[25%] items-center'>
                     <HiOutlineArrowNarrowRight className='text-2xl'/>
                     <a href={Cv}>Resume</a>
                 </div>
